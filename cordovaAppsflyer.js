@@ -58,6 +58,6 @@ function onError(err) {
 }
 
 
-// appsFlyerのSDKを呼び出し、上記で定義したopttionsとハンドラを設定する。
+// appsFlyerのSDKを呼び出し、上記で定義したoptionsとハンドラを設定する。
 // 参考: https://github.com/AppsFlyerSDK/appsflyer-cordova-plugin/blob/master/docs/API.md#initSdk
 window.plugins.appsFlyer.initSdk(options, onSuccess, onError);
